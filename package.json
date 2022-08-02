@@ -1,0 +1,16 @@
+{
+  "name": "rover-test",
+  "version": "1.0.0",
+  "description": "rover-test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test-coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage"
+  },
+  "author": "Willy Silva",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
